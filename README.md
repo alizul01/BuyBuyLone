@@ -96,35 +96,6 @@ npm install
 
 Here is how to get started developing the project.
 
-#### Javascript
-1) Go to src
-2) Make the javascript files
-3) Go to the index.js, then import the modules you've make
-4) Run npm run build:bundle to make the bundle.js
-
-Example if you want to make navbar
-```js
-export default function bar() {
-    const navbar = document.querySelector('#navbar');
-    navbar.innerHTML = `<div> Hello World </div>`
-
-    return navbar;
-}
-```
-
-After you make the bar, go to the index.js
-
-```js
-import bar from './navbar.js';
-
-bar();
-```
-
-Last, go to the terminal / bash
-```bash
-npm run build:bundle
-```
-
 #### Tailwindcss
 1) Go to the bash and run this
 ```bash
